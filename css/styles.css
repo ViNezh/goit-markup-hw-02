@@ -1,0 +1,93 @@
+/* INDEX.HTML */
+/* main text color #2E2F42; */
+/* secondary text color  #434455; */
+/* logo text WEB color  #4D5AE5; */
+/* Hero header text color  #FFFFFF  */
+/* Logo in FOOTER text color  #F4F4FD */
+/* Text in FOOTER color #E7E9FC; */
+/* main color  #FFFFFF; */
+/* secondary color #F4F4FD; */
+/* HERO and FOOTER color #2E2F42; */
+/* Hover color #404BBF; */
+:root{
+    --main-text-color: #434455;
+    --title-text-color:#2E2F42;
+    --accent-color: #4D5AE5;
+    --footer-text-color: #E7E9FC;
+    --footer-logo-text-color: #F4F4FD;
+    --highlite-text-color: #404BBF;
+    --main-bg-color:#FFFFFF;
+    --secondary-bg-color:#F4F4FD;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    background-color: #fff;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+/* -----------------------HEADER----------------------- */
+.logo{
+    font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: var(--title-text-color);
+}
+
+.logo-accent{
+    color: var(--accent-color);
+}
+
+.site-nav{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link{
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--highlite-text-color);
+}
+
+.address{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address .link {
+    color: var(--main-text-color);
+}
+
+.address .link:hover,
+.address .link:focus{
+    color: var(--highlite-text-color);
+}
+/* -----------------------/HEADER----------------------- */
+/* -----------------------MAIN----------------------- */
+/* -----------------------HERO----------------------- */
+/* -----------------------/HERO----------------------- */
+/* -----------------------FEATURES----------------------- */
+/* -----------------------/FEATURES----------------------- */
+/* -----------------------SKILS----------------------- */
+/* -----------------------/SKILS----------------------- */
+/* -----------------------TEAM----------------------- */
+/* -----------------------/TEAM----------------------- */
+/* -----------------------/MAIN----------------------- */
+/* -----------------------FOOTER----------------------- */
+/* -----------------------/FOOTER----------------------- */
