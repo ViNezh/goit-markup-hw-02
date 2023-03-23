@@ -33,6 +33,7 @@ body{
 .list{
     list-style: none;
 }
+/* -----------------------INDEX.HTML----------------------- */
 /* -----------------------HEADER----------------------- */
 .logo{
     font-family: 'Raleway';
@@ -65,7 +66,6 @@ body{
 }
 
 .address{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -129,7 +129,6 @@ body{
 }
 
 .section-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -153,3 +152,26 @@ body{
     /* color: var(--footer-text-color); */
 }
 /* -----------------------/FOOTER----------------------- */
+/* ---------------PORTFOLIO PAGE--------------------------- */
+/* --------------BUTTONS------------------- */
+.filter-button{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    border-radius: 4px;
+    color: var(--accent-color);
+    background-color: var(--footer-logo-text-color);
+}
+
+.filter-button:hover,
+.filter-button:focus{
+    background-color: var(--highlite-text-color);
+    color:var(--main-bg-color);
+
+    cursor: pointer;
+}
+
