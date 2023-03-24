@@ -34,7 +34,7 @@ body{
     color:var(--primary-brand);
 }
 
-.logo > span{
+.dark-text{
     color: var(--title-text-color);
 }
 
@@ -70,13 +70,16 @@ body{
 /* -----------------------/HEADER----------------------- */
 /* -----------------------MAIN----------------------- */
 /* -----------------------HERO----------------------- */
-
+.hero{
+    background-color: var(--title-text-color);
+}
 .main-title{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    /* color: var(--main-bg-color);*/
+    text-align: center;
+    color: var(--main-bg-color);
 }
 
 .order-btn{
@@ -125,15 +128,20 @@ body{
 /* -----------------------/MAIN----------------------- */
 /* -----------------------FOOTER----------------------- */
 /* Hidden until background changes */
-/* .footer .logo span{  
+.footer{
+    background-color: var(--title-text-color);
+}
+
+.light-text{
     color: var(--light-mode);
-}*/
+}
+
 .footer-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* color: var(--accent-color); */
+    color: var(--accent-color);
 }
 /* -----------------------/FOOTER----------------------- */
 
