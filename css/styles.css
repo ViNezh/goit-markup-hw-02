@@ -31,11 +31,11 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--title-text-color);
+    color:var(--primary-brand);
 }
 
 .logo > span{
-    color: var(--primary-brand);
+    color: var(--title-text-color);
 }
 
 .site-nav{
@@ -125,7 +125,7 @@ body{
 /* -----------------------/MAIN----------------------- */
 /* -----------------------FOOTER----------------------- */
 /* Hidden until background changes */
-/* .footer > .logo{ 
+/* .footer .logo span{  
     color: var(--light-mode);
 }*/
 .footer-text{
