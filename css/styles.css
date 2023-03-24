@@ -1,179 +1,182 @@
-:root{
-    --main-text-color: #434455;
-    --title-text-color:#2E2F42;
-    --primary-brand: #4D5AE5;
-    --accent-color: #E7E9FC;
-    --light-mode: #F4F4FD;
-    --pressed-state: #404BBF;
-    --main-bg-color:#FFFFFF;
-    --secondary-bg-color:#F4F4FD;
+:root {
+  --main-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --primary-brand: #4d5ae5;
+  --accent-color: #e7e9fc;
+  --light-mode: #f4f4fd;
+  --pressed-state: #404bbf;
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #f4f4fd;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    color: var(--main-text-color);
-    background-color: var(--main-bg-color);
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
 }
 
-.link{
-    text-decoration: none;
+.link {
+  text-decoration: none;
 }
 
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
 /*---------------------- INDEX.HTML--------------------- */
 /* -----------------------HEADER----------------------- */
-.logo{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:var(--primary-brand);
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
 }
 
-.dark-text{
-    color: var(--title-text-color);
+.dark-text {
+  color: var(--title-text-color);
 }
 
-.site-nav{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.site-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.site-nav .link{
-    color: var(--title-text-color);
+.site-nav .link {
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus{
-    color: var(--pressed-state);
+.site-nav .link:focus {
+  color: var(--pressed-state);
 }
 
-.contacts{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .contacts .link {
-    color: var(--main-text-color);
+  color: var(--main-text-color);
 }
 
 .contacts .link:hover,
-.contacts .link:focus{
-    color: var(--pressed-state);
+.contacts .link:focus {
+  color: var(--pressed-state);
 }
 /* -----------------------/HEADER----------------------- */
 /* -----------------------MAIN----------------------- */
 /* -----------------------HERO----------------------- */
-.hero{
-    background-color: var(--title-text-color);
+.hero {
+  background-color: var(--title-text-color);
 }
-.main-title{
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--main-bg-color);
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--main-bg-color);
 }
 
-.order-btn{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--main-bg-color);
+.order-btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--main-bg-color);
 
-    background: var(--primary-brand);
+  background: var(--primary-brand);
 }
 
 .order-btn:hover,
-.order-btn:focus{
-    background-color: var(--pressed-state);
-    cursor: pointer;
+.order-btn:focus {
+  background-color: var(--pressed-state);
+  cursor: pointer;
 }
 /* -----------------------/HERO----------------------- */
 /* -----------------------SECTIONS----------------------- */
-.team{
-    background-color: var(--secondary-bg-color);
+.team {
+  background-color: var(--secondary-bg-color);
 }
 
-.card-bgc{
-    background-color: var(--main-bg-color);
+.card-bgc {
+  background-color: var(--main-bg-color);
 }
 
 /* --------H2---------- */
-.section-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--title-text-color);
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--title-text-color);
 }
 
 /* -------H3---------- */
-.section-description{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
+.section-description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
-.section-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* -----------------------/MAIN----------------------- */
 /* -----------------------FOOTER----------------------- */
 /* Hidden until background changes */
-.footer{
-    background-color: var(--title-text-color);
+.footer {
+  background-color: var(--title-text-color);
 }
 
-.light-text{
-    color: var(--light-mode);
+.light-text {
+  color: var(--light-mode);
 }
 
-.footer-text{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--accent-color);
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
 }
 /* -----------------------/FOOTER----------------------- */
 
-
 /* ---------------PORTFOLIO PAGE--------------------------- */
 /* --------------BUTTONS------------------- */
-.filter-button{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+.filter-button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 
-   
-    color: var(--primary-brand);
-    background-color: var(--light-mode);
+  color: var(--primary-brand);
+  background-color: var(--light-mode);
 }
 
 .filter-button:hover,
-.filter-button:focus{
-    background-color: var(--pressed-state);
-    color:var(--main-bg-color);
-    cursor: pointer;
+.filter-button:focus {
+  background-color: var(--pressed-state);
+  color: var(--main-bg-color);
+  cursor: pointer;
 }
+/* --------------/BUTTONS------------------- */
 
+/* --------------LINKS------------------- */
+.link-text {
+  color: var(--main-text-color);
+}
