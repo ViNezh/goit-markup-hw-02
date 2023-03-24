@@ -101,12 +101,21 @@ body{
 }
 /* -----------------------/HERO----------------------- */
 /* -----------------------SECTIONS----------------------- */
+.team{
+    background-color: var(--secondary-bg-color);
+}
+
+.card-bgc{
+    background-color: var(--main-bg-color);
+}
+
 /* --------H2---------- */
 .section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--title-text-color);
 }
