@@ -76,7 +76,7 @@ body{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    /* color: #FFFFFF; */
+    /* color: var(--main-bg-color);*/
 }
 
 .order-btn{
@@ -86,7 +86,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--main-bg-color);
 
     background: var(--primary-brand);
 }
