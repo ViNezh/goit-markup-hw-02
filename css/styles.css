@@ -1,21 +1,11 @@
 /* INDEX.HTML */
-/* main text color #2E2F42; */
-/* secondary text color  #434455; */
-/* logo text WEB color  #4D5AE5; */
-/* Hero header text color  #FFFFFF  */
-/* Logo in FOOTER text color  #F4F4FD */
-/* Text in FOOTER color #E7E9FC; */
-/* main color  #FFFFFF; */
-/* secondary color #F4F4FD; */
-/* HERO and FOOTER color #2E2F42; */
-/* Hover color #404BBF; */
 :root{
     --main-text-color: #434455;
     --title-text-color:#2E2F42;
-    --accent-color: #4D5AE5;
-    --footer-text-color: #E7E9FC;
-    --footer-logo-text-color: #F4F4FD;
-    --highlite-text-color: #404BBF;
+    --primary-brand: #4D5AE5;
+    --accent-color: #E7E9FC;
+    --light-mode: #F4F4FD;
+    --pressed-state: #404BBF;
     --main-bg-color:#FFFFFF;
     --secondary-bg-color:#F4F4FD;
 }
@@ -33,7 +23,6 @@ body{
 .list{
     list-style: none;
 }
-/* -----------------------INDEX.HTML----------------------- */
 /* -----------------------HEADER----------------------- */
 .logo{
     font-family: 'Raleway';
@@ -46,7 +35,7 @@ body{
 }
 
 .logo > span{
-    color: var(--accent-color);
+    color: var(--primary-brand);
 }
 
 .site-nav{
@@ -62,7 +51,7 @@ body{
 
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: var(--highlite-text-color);
+    color: var(--pressed-state);
 }
 
 .address{
@@ -76,7 +65,7 @@ body{
 
 .address .link:hover,
 .address .link:focus{
-    color: var(--highlite-text-color);
+    color: var(--pressed-state);
 }
 /* -----------------------/HEADER----------------------- */
 /* -----------------------MAIN----------------------- */
@@ -104,7 +93,7 @@ body{
 
 .order-btn:hover,
 .order-btn:focus{
-    background-color: var(--highlite-text-color);
+    background-color: var(--pressed-state);
     cursor: pointer;
 }
 /* -----------------------/HERO----------------------- */
@@ -140,14 +129,14 @@ body{
 /* -----------------------FOOTER----------------------- */
 
 /* .footer > .logo{ 
-    color: var(--footer-logo-text-color);
+    color: var(--light-mode);
 }*/
 .footer-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* color: var(--footer-text-color); */
+    /* color: var(--accent-color); */
 }
 /* -----------------------/FOOTER----------------------- */
 /* ---------------PORTFOLIO PAGE--------------------------- */
@@ -161,13 +150,13 @@ body{
     letter-spacing: 0.04em;
 
    
-    color: var(--accent-color);
-    background-color: var(--footer-logo-text-color);
+    color: var(--primary-brand);
+    background-color: var(--light-mode);
 }
 
 .filter-button:hover,
 .filter-button:focus{
-    background-color: var(--highlite-text-color);
+    background-color: var(--pressed-state);
     color:var(--main-bg-color);
 
     cursor: pointer;
